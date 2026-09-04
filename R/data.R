@@ -24,3 +24,4 @@ NULL
 #'   complex social systems. Personal and Ubiquitous Computing, 10, 255-268.
 #' @name MITcellphone
 NULL
+
