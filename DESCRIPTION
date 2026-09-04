@@ -1,0 +1,22 @@
+Package: distCUSUM
+Type: Package
+Title: Distance-Based CUSUM Statistics for High Dimensional Change Points
+Version: 0.1.0
+Author: Lupeng Zhang and Reza Drikvandi
+Maintainer: Lupeng Zhang <lupengzhang9746@gmail.com>
+Description: This package implements our distance-based CUSUM method for detecting
+    single and multiple change points in high dimensional data. The main functions
+    are called "DCCP_single_changepoint" and "DCCP_multiple_changepoints", which,
+    respectively, run our algorithms for single change point detection and multiple
+    change point detection using recursive binary segmentation. The modified L1 norm
+    is used by default, and users can specify another relevant distance function.
+    The function "DCCP" can also be used to calculate the proposed test statistic,
+    distance matrix and CUSUM matrix. Also, the S&P500 and MIT cellphone data sets analyzed in the paper are included.
+License: GPL-3
+URL: https://github.com/lupengzhang/distCUSUM
+BugReports: https://github.com/lupengzhang/distCUSUM/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests:
+    MASS
