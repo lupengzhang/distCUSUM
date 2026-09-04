@@ -56,3 +56,5 @@ DCCP_multiple_changepoints(Obs)
 The output is:
 
 [1] 20 60 80
+
+The two real data sets used in the applications, the S&P500 data and the MIT cellphone data, are also included in the package. See the data documentation for further details.
