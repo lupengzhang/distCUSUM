@@ -13,3 +13,4 @@ L1norm_matrix <- (1 / p) *
 as.matrix(stats::dist(data, method = "manhattan"))
 return(L1norm_matrix)
 }
+ 
