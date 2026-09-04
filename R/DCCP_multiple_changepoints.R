@@ -74,3 +74,4 @@ DCCP_multiple_changepoints <- function(data,
   }
   return(sort(changepoint_all[!is.na(changepoint_all)]))
 }
+
