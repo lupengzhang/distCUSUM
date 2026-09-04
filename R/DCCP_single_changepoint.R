@@ -67,3 +67,4 @@ DCCP_single_changepoint <- function(data,
   }
   return(list(changepoint = changepoint, pvalue = pvalue_report))
 }
+
