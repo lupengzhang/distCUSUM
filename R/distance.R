@@ -14,3 +14,4 @@ as.matrix(stats::dist(data, method = "manhattan"))
 return(L1norm_matrix)
 }
  
+
