@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/31840249/README.1.md)
 This R package is for the following published paper:
 
 Zhang L. and Drikvandi R. (2025). "Distance-based CUSUM statistics for high dimensional change points". Statistics and Computing, 35, Article 215. https://doi.org/10.1007/s11222-025-10752-1
