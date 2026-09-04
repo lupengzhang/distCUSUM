@@ -2,3 +2,4 @@ export(DCCP)
 export(DCCP_multiple_changepoints)
 export(DCCP_single_changepoint)
 export(M.L1norm)
+
