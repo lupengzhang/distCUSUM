@@ -8,7 +8,7 @@
 #' @source Yahoo Finance, obtained using the \code{BatchGetSymbols} package.
 #' @references Zhang, L. and Drikvandi, R. (2025). Distance-based CUSUM
 #'   statistics for high dimensional change points. Statistics and Computing,
-#'   35, Article 215. \doi{10.1007/s11222-025-10752-1}.
+#'   35(6), 215. \doi{10.1007/s11222-025-10752-1}.
 #' @name SP500data
 NULL
 
