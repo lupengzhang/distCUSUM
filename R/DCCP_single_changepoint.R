@@ -45,9 +45,6 @@ DCCP_single_changepoint <- function(data,
   permuted_test.statistics <- numeric(nperm)
   for (i in 1:nperm) {
     index <- 1:n
-    perm_before <- index[1:(changepoint - 1)]
-    perm_after <- index[(changepoint + 1):n]
-    index <- c(perm_before, perm_after)
     permuted_index <- sample(index)
     permuted_data <- data[permuted_index, ]
     permuted_test.statistics[i] <- DCCP(
