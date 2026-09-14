@@ -65,7 +65,7 @@ DCCP_single_changepoint <- function(data,
   if (significance == "non-significant") {
     return(list(changepoint = NA, pvalue = pvalue_report))
   }
-  return(list(changepoint = changepoint, pvalue = pvalue_report))
+  return(list(changepoint = changepoint + 1, pvalue = pvalue_report))
 }
 
 
