@@ -46,8 +46,8 @@ DCCP_multiple_changepoints <- function(data,
     end <- nrow(data)
     if (!is.na(changepoint) && changepoint_pvalue <= sig.lvl &
         changepoint > 2 & changepoint < end - 2) {
-      data_before <- data[1:changepoint, ]
-      data_after <- data[(changepoint + 1):end, ]
+        data_before <- data[1:(changepoint - 1), ]
+        data_after <- data[(changepoint + 1):end, ]
       changepoint_before <- DCCP_multiple_changepoints(
         data = data_before,
         FUN_multiple_changepoints = FUN_multiple_changepoints,
