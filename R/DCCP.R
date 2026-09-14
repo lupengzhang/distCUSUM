@@ -32,7 +32,7 @@ C[i, ] <- c
 changepoint <- which.max(colSums(C^2))
 test.statistic <- (1 / n) * colSums(C^2)[changepoint]
 list_all <- list(
-"changepoint" = changepoint,
+"changepoint" = changepoint + 1,
 "test.statistic" = test.statistic,
 "Distance matrix" = D,
 "CUSUM matrix" = C
