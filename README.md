@@ -100,11 +100,14 @@ The default is the modified L1 norm. Set `FUN_multiple_changepoints = dist` to u
 
     # Modified L1 norm
     DCCP_multiple_changepoints(SP500data)
-    # [1] 10 18 27 37 45 49 58 68 72 80 88 99
 
     # Modified L2 norm
     DCCP_multiple_changepoints(SP500data, FUN_multiple_changepoints = dist)
-    # [1] 10 15 21 27 37 48 68 80 91 95
+
+The outputs are, respectively:
+
+    [1] 10 18 27 37 45 49 58 68 72 80 88 99
+    [1] 10 15 21 27 37 48 68 80 91 95
 
 #### MIT cellphone
 
@@ -112,9 +115,11 @@ The default is the modified L1 norm. Set `FUN_multiple_changepoints = dist` to u
 
     # Modified L1 norm
     DCCP_multiple_changepoints(MITcellphone)
-    # [1] 34 94 101 113 186 214
 
     # Modified L2 norm
     DCCP_multiple_changepoints(MITcellphone, FUN_multiple_changepoints = dist)
-    # [1] 34 95 101 112 179 200 210 214
 
+The outputs are, respectively:
+
+    [1] 34 94 101 113 186 214
+    [1] 34 95 101 112 179 200 210 214
