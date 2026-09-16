@@ -1,4 +1,4 @@
-#' Standardized S&P500 Stock Prices
+#' S&P500 Stock Prices
 #'
 #' Daily closing prices for 496 S&P500 companies over 108 trading
 #' days from 1 January 2020 to 29 May 2020. The same source data are also used
