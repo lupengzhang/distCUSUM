@@ -86,7 +86,7 @@ The output is:
 
     [1] 21 61 81
 
-Note that our algorithm reports the first observation after a change as the change point. Some papers use the last observation before the change, which would be 20, 60, and 80 in the multiple change point example above. Please check the indexing when running simulations or comparing results.
+Note that our algorithm reports the first observation after a change as the change point. Some papers use the last observation before the change as the change point. For example, the change point in the single change point example above would be 60 instead of 61, and the change points in the multiple change point example would be 20, 60, and 80 instead of 21, 61, and 81. Please check the indexing when running simulations or comparing results.
 
 ### Real data examples
 
